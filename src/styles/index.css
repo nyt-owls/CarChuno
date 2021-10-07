@@ -1,13 +1,35 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+@import "./variables.css";
+
+*,
+*::after,
+*::before {
+	box-sizing: border-box;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+body {
+	margin: 0;
+	font-family: var(--font-family-noto-sans-regular, "sans-serif");
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+	background-color: var(--page-background);
+}
+
+@media (prefers-color-scheme: light) {
+	:root {
+		--page-background: var(--white-alternate);
+		--primary: var(--purple-color);
+		--btn-font-color: var(--white);
+		--btn-background-color: var(--primary);
+		--btn-shadow: var(--shadow-1) var(--grey-color);
+	}
+}
+
+@media (prefers-color-scheme: dark) {
+	:root {
+		--page-background: var(--black-alternate);
+		--primary: var(--white);
+		--btn-font-color: var(--grey-font-color);
+		--btn-background-color: var(--grey-2);
+		--btn-shadow: var(--shadow-1) var(--grey-color);
+	}
 }
