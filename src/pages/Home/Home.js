@@ -1,9 +1,9 @@
-import "./App.css";
+import "./Home.css";
 import { ReactComponent as Chuno } from "../../assets/images/car-chuno.svg";
 
-function App() {
+function Home() {
 	return (
-		<div className="App">
+		<div className="home_page">
 			<h1 className="app_name">Car Chuno</h1>
 			<div className="hero_container">
 				<Chuno className="hero_image" />
@@ -13,4 +13,4 @@ function App() {
 	);
 }
 
-export default App;
+export default Home;
