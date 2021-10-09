@@ -20,4 +20,8 @@ jobs:
       - name: Install Packages
         run: npm install
       - name: Deploy to GH Pages
-        run: npm run deploy
+        run: |
+          git config --global user.email "shindetejas2011@gmail.com"
+          git config --global user.name "Tejasturbou"
+          git remote set-url origin https://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@github.com/Tejasturbou/nyt-owls/CarChuno.git
+          npm run deploy
