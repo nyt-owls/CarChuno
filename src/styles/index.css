@@ -18,10 +18,11 @@ body {
 	:root {
 		--page-background: var(--white-alternate);
 		--primary: var(--taupe);
-		--seconary: var(--kombu);
+		--secondary: var(--kombu);
 		--btn-font-color: var(--white-alternate);
 		--btn-background-color: var(--primary);
 		--btn-shadow: var(--filter-1);
+		--font-color: var(--black-alternate);
 	}
 }
 
@@ -29,9 +30,10 @@ body {
 	:root {
 		--page-background: var(--black-alternate);
 		--primary: var(--white-alternate);
-		--secondary: var(--taupe);
-		--btn-font-color: var(--grey-font-color);
-		--btn-background-color: var(--grey-2);
+		--secondary: var(--white-alternate);
+		--font-color: var(--white);
+		--btn-font-color: var(--taupe);
+		--btn-background-color: var(--white-alternate);
 		--btn-shadow: var(--filter-1);
 	}
 }
