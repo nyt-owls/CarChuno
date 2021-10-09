@@ -11,7 +11,7 @@ function Home() {
 			<p className="page_description">
 				Lorem ipsum dolor sit amet, consectetur adipiscing elit.
 			</p>
-			<button className="chuno_btn">Chuno</button>
+			<button className="chuno_btn">CHUNO</button>
 		</div>
 	);
 }

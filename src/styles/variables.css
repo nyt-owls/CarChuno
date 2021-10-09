@@ -21,9 +21,12 @@
 	--purple-color: #6c63ff;
 	--grey-color: #a8a8a8;
 	--grey-2: #373e47;
+	--taupe: #815e5b;
+	--kombu: #303a2b;
+	--dark-green: #297373;
 	--shadow-1: 0px 0px 7px 2px rgb(0 0 0 / 10%);
 
-	--primary: var(--purple-color);
+	--primary: var(--taupe);
 	--page-background: var(--white-alternate);
 	--btn-font-color: var(--white);
 	--btn-background-color: var(--primary);
