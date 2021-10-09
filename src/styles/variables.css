@@ -24,11 +24,11 @@
 	--taupe: #815e5b;
 	--kombu: #303a2b;
 	--dark-green: #297373;
-	--shadow-1: 0px 0px 7px 2px rgb(0 0 0 / 10%);
+	--filter-1: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
 
 	--primary: var(--taupe);
 	--page-background: var(--white-alternate);
 	--btn-font-color: var(--white);
 	--btn-background-color: var(--primary);
-	--btn-shadow: var(--shadow-1) var(--grey-color);
+	--btn-shadow: var(--filter-1);
 }

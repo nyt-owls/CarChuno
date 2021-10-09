@@ -1,5 +1,9 @@
 .home_page {
-	text-align: center;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	flex-direction: column;
+	height: 100vh;
 }
 
 .app_name {
@@ -8,27 +12,29 @@
 }
 
 .hero_image {
-	width: 80%;
-	height: auto;
-}
-
-.hero_container {
-	margin: 1rem 0 4rem;
+	min-width: 80%;
+	max-width: 90%;
+	height: 100%;
 }
 
 .chuno_btn {
 	background: var(--btn-background-color);
 	border: 1px solid var(--grey-color);
-	box-shadow: var(--btn-shadow);
+	filter: var(--btn-shadow);
 	border-radius: 32px;
 	color: var(--btn-font-color);
 	padding: 1rem 2.8rem;
 	font-size: 1.2rem;
 	cursor: pointer;
+	margin: 3rem;
 }
 
-@media screen and (min-width: 720px) {
+.page_description {
+	padding: 0 1rem;
+	text-align: center;
+}
+
+@media screen and (min-width: 768px) {
 	.hero_image {
-		width: 35%;
 	}
 }

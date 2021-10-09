@@ -5,9 +5,7 @@ function Home() {
 	return (
 		<div className="home_page">
 			<h1 className="app_name">Car Chuno</h1>
-			<div className="hero_container">
-				<Chuno className="hero_image" />
-			</div>
+			<Chuno className="hero_image" />
 			<p className="page_description">
 				Lorem ipsum dolor sit amet, consectetur adipiscing elit.
 			</p>

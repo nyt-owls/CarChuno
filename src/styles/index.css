@@ -21,7 +21,7 @@ body {
 		--seconary: var(--kombu);
 		--btn-font-color: var(--white-alternate);
 		--btn-background-color: var(--primary);
-		--btn-shadow: var(--shadow-1) var(--grey-color);
+		--btn-shadow: var(--filter-1);
 	}
 }
 
@@ -32,6 +32,6 @@ body {
 		--secondary: var(--taupe);
 		--btn-font-color: var(--grey-font-color);
 		--btn-background-color: var(--grey-2);
-		--btn-shadow: var(--shadow-1) var(--grey-color);
+		--btn-shadow: var(--filter-1);
 	}
 }
