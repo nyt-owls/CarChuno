@@ -1,0 +1,39 @@
+@import "./variables.css";
+
+*,
+*::after,
+*::before {
+	box-sizing: border-box;
+}
+
+body {
+	margin: 0;
+	font-family: var(--font-family-noto-sans-regular, "sans-serif");
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+	background-color: var(--page-background);
+}
+
+@media (prefers-color-scheme: light) {
+	:root {
+		--page-background: var(--white-alternate);
+		--primary: var(--taupe);
+		--secondary: var(--kombu);
+		--btn-font-color: var(--white-alternate);
+		--btn-background-color: var(--primary);
+		--btn-shadow: var(--filter-1);
+		--font-color: var(--black-alternate);
+	}
+}
+
+@media (prefers-color-scheme: dark) {
+	:root {
+		--page-background: var(--black-alternate);
+		--primary: var(--white-alternate);
+		--secondary: var(--white-alternate);
+		--font-color: var(--white);
+		--btn-font-color: var(--taupe);
+		--btn-background-color: var(--white-alternate);
+		--btn-shadow: var(--filter-1);
+	}
+}
