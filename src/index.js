@@ -4,8 +4,6 @@ import "./styles/index.css";
 import Home from "./pages/Home/Home";
 import reportWebVitals from "./reportWebVitals";
 
-("testing branch policy");
-
 ReactDOM.render(
 	<React.StrictMode>
 		<Home />
