@@ -15,6 +15,11 @@
   height: 100%;
 }
 
+.image {
+  height: 100%;
+  width: 100%;
+}
+
 .page_description {
   padding: 0 1rem;
   text-align: center;

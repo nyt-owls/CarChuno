@@ -1,3 +1,7 @@
 .page {
   color: var(--font-color);
+  width: 70%;
+  margin: auto;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
 }
