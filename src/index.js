@@ -3,12 +3,23 @@ import ReactDOM from "react-dom";
 import "./styles/index.css";
 import Home from "./pages/Home/Home";
 import reportWebVitals from "./reportWebVitals";
+import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
+import List from "./pages/List/List";
 
 ReactDOM.render(
-	<React.StrictMode>
-		<Home />
-	</React.StrictMode>,
-	document.getElementById("root")
+  <React.StrictMode>
+    <Router>
+      <Switch>
+        <Route path="/cars">
+          <List />
+        </Route>
+        <Route path="/">
+          <Home />
+        </Route>
+      </Switch>
+    </Router>
+  </React.StrictMode>,
+  document.getElementById("root")
 );
 
 // If you want to start measuring performance in your app, pass a function

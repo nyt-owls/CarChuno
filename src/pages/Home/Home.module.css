@@ -1,51 +1,47 @@
 .home_page {
-	display: grid;
-	place-items: center;
-	height: 100vh;
+  display: grid;
+  place-items: center;
+  height: 100vh;
 }
 
 .app_name {
-	font-family: var(--font-family-noto-sans-bold, "sans-serif");
-	color: var(--secondary);
-	order: 1;
+  font-family: var(--font-family-noto-sans-bold, "sans-serif");
+  color: var(--secondary);
 }
 
 .hero_image {
-	min-width: 80%;
-	max-width: 90%;
-	height: 100%;
-	order: 1;
+  min-width: 80%;
+  max-width: 90%;
+  height: 100%;
 }
 
 .page_description {
-	padding: 0 1rem;
-	text-align: center;
-	order: 1;
-	color: var(--font-color);
+  padding: 0 1rem;
+  text-align: center;
+  color: var(--font-color);
 }
 
 .chuno_btn {
-	background: var(--btn-background-color);
-	border: 1px solid var(--grey-color);
-	filter: var(--btn-shadow);
-	border-radius: 2rem;
-	color: var(--btn-font-color);
-	padding: 1rem 2.8rem;
-	font-size: 1.35rem;
-	font-family: var(--font-family-noto-sans-regular);
-	font-weight: 700;
-	cursor: pointer;
-	margin: 3rem;
-	order: 1;
+  background: var(--btn-background-color);
+  border: 1px solid var(--grey-color);
+  filter: var(--btn-shadow);
+  border-radius: 2rem;
+  color: var(--btn-font-color);
+  padding: 1rem 2.8rem;
+  font-size: 1.35rem;
+  font-family: var(--font-family-noto-sans-regular);
+  font-weight: 700;
+  cursor: pointer;
+  margin: 3rem;
 }
 
 @media screen and (min-width: 768px) {
-	.home_page {
-		grid-template-columns: 1fr 1fr;
-		padding: 2rem 3rem;
-	}
-	.hero_image {
-		order: 0;
-		grid-row: 1 / span 3;
-	}
+  .home_page {
+    grid-template-columns: 1fr 1fr;
+    padding: 2rem 3rem;
+  }
+  .hero_image {
+    order: 0;
+    grid-row: 1 / span 3;
+  }
 }
