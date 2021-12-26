@@ -1,24 +1,17 @@
 {
-  "files": {
-    "main.css": "/CarChuno/static/css/main.6e59c677.chunk.css",
-    "main.js": "/CarChuno/static/js/main.55c75316.chunk.js",
-    "main.js.map": "/CarChuno/static/js/main.55c75316.chunk.js.map",
-    "runtime-main.js": "/CarChuno/static/js/runtime-main.c50d0a77.js",
-    "runtime-main.js.map": "/CarChuno/static/js/runtime-main.c50d0a77.js.map",
-    "static/js/2.b3b041e5.chunk.js": "/CarChuno/static/js/2.b3b041e5.chunk.js",
-    "static/js/2.b3b041e5.chunk.js.map": "/CarChuno/static/js/2.b3b041e5.chunk.js.map",
-    "static/js/3.22d7c370.chunk.js": "/CarChuno/static/js/3.22d7c370.chunk.js",
-    "static/js/3.22d7c370.chunk.js.map": "/CarChuno/static/js/3.22d7c370.chunk.js.map",
-    "index.html": "/CarChuno/index.html",
-    "static/css/main.6e59c677.chunk.css.map": "/CarChuno/static/css/main.6e59c677.chunk.css.map",
-    "static/js/2.b3b041e5.chunk.js.LICENSE.txt": "/CarChuno/static/js/2.b3b041e5.chunk.js.LICENSE.txt",
-    "static/media/index.css": "/CarChuno/static/media/NotoSans-Regular.fa11626f.ttf",
-    "static/media/car-chuno.59ca091e.svg": "/CarChuno/static/media/car-chuno.59ca091e.svg"
-  },
-  "entrypoints": [
-    "static/js/runtime-main.c50d0a77.js",
-    "static/js/2.b3b041e5.chunk.js",
-    "static/css/main.6e59c677.chunk.css",
-    "static/js/main.55c75316.chunk.js"
-  ]
+  "main.css": "/CarChuno/static/css/main.99f76ff0.chunk.css",
+  "main.js": "/CarChuno/static/js/main.9f2e2032.chunk.js",
+  "main.js.map": "/CarChuno/static/js/main.9f2e2032.chunk.js.map",
+  "static/js/1.4459c0e0.chunk.js": "/CarChuno/static/js/1.4459c0e0.chunk.js",
+  "static/js/1.4459c0e0.chunk.js.map": "/CarChuno/static/js/1.4459c0e0.chunk.js.map",
+  "static/js/2.f75a3f95.chunk.js": "/CarChuno/static/js/2.f75a3f95.chunk.js",
+  "static/js/2.f75a3f95.chunk.js.map": "/CarChuno/static/js/2.f75a3f95.chunk.js.map",
+  "runtime~main.js": "/CarChuno/static/js/runtime~main.d44c477b.js",
+  "runtime~main.js.map": "/CarChuno/static/js/runtime~main.d44c477b.js.map",
+  "static/media/index.css": "/CarChuno/static/media/NotoSans-Bold.98f0cacc.ttf",
+  "static/media/car-chuno.8438cdf6.svg": "/CarChuno/static/media/car-chuno.8438cdf6.svg",
+  "static/css/main.99f76ff0.chunk.css.map": "/CarChuno/static/css/main.99f76ff0.chunk.css.map",
+  "index.html": "/CarChuno/index.html",
+  "precache-manifest.c41d921845f2a0d1122f9ae6e17939d4.js": "/CarChuno/precache-manifest.c41d921845f2a0d1122f9ae6e17939d4.js",
+  "service-worker.js": "/CarChuno/service-worker.js"
 }
