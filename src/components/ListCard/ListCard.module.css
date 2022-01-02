@@ -1,0 +1,14 @@
+.card {
+  padding: 2rem;
+  border-radius: 5px;
+  border: 0.2px solid rgb(245, 245, 245, 40%);
+  margin: 1rem;
+  display: flex;
+  width: 27rem;
+  flex: 1 1 0px;
+}
+
+.info {
+  display: flex;
+  flex-direction: column;
+}

@@ -1,0 +1,9 @@
+.carousel {
+  padding: 2rem;
+  position: relative;
+  overflow: hidden;
+  border-radius: 1rem;
+  width: 300px;
+  height: 200px;
+  margin-top: 20px;
+}

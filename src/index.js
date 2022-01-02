@@ -5,11 +5,15 @@ import Home from "./pages/Home/Home";
 import reportWebVitals from "./reportWebVitals";
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 import List from "./pages/List/List";
+import View from "./pages/View/View";
 
 ReactDOM.render(
   <React.StrictMode>
     <Router>
       <Switch>
+        <Route path="/cars/:id">
+          <View />
+        </Route>
         <Route path="/cars">
           <List />
         </Route>

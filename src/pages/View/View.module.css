@@ -1,0 +1,23 @@
+.view {
+  color: var(--font-color);
+  width: 70%;
+  margin: auto;
+  margin-top: 9rem;
+  margin-bottom: 2rem;
+  padding: 10px;
+  background-color: rgb(75, 53, 26);
+  border-radius: 2rem;
+  display: flex;
+  flex-shrink: 1 0 auto;
+}
+
+.mainImg {
+  position: relative;
+  left: -4rem;
+  top: -4rem;
+}
+
+.details {
+  display: flex;
+  flex-direction: column;
+}
